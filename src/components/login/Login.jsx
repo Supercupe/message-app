@@ -57,12 +57,6 @@ const Login = () => {
         <h2>Create Account</h2>
           {/* Avatar Image */}
           <form onSubmit={handleRegister}>
-          <input
-            type="file"
-            id="file"
-            style={{ display: "none" }}
-            onChange={handleAvatar}
-          />
           <input type="text" placeholder="Username" name="username" />
           <input type="text" placeholder="Email" name="email" />
           <input type="password" placeholder="Password" name="password" />
