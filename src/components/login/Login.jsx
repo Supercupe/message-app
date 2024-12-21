@@ -6,7 +6,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../lib/firebase";
 
 const Login = () => {
-  const [avatat, setAvatar] = useState({
+  const [avatar, setAvatar] = useState({
     file: null,
     url: ""
   });

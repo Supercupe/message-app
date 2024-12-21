@@ -20,12 +20,10 @@ const ChatList = () => {
                 />
             </div>
             <div className="item">
-                <img src="./avatar.png" alt=""/>
                 <span>Hane Doe</span>
                 <p>Heleo</p>
             </div>
             <div className="item">
-                <img src="./avatar.png" alt=""/>
                 <span>Hane Doe</span>
                 <p>Heleo</p>
             </div>
