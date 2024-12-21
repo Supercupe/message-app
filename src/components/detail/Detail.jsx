@@ -5,7 +5,6 @@ const Detail = ()=>{
     return(
         <div className="detail">
             <div className="user">
-                <img src="./avatar.png" alt="User Avatar" />
                 <h2>Jane Doe</h2>
                 <p>Hello</p>
             </div>
