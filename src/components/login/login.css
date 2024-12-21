@@ -1,0 +1,97 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Reduce gap to avoid excessive spacing */
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px;
+    width: 100%; /* Prevent it from growing too wide on large screens */
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 100%; /* Ensure form takes up full width */
+    }
+  
+    input {
+      padding: 15px;
+      border: none;
+      outline: none;
+      background-color: rgba(17, 25, 40, 0.6);
+      color: white;
+      border-radius: 5px;
+      font-size: 16px;
+      width: 100%; /* Input fields take up full width */
+    }
+  
+    label {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      text-decoration: underline;
+  
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        object-fit: cover;
+        opacity: 0.6;
+      }
+    }
+  
+    button {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      background-color: #1f8ef1;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 16px;
+  
+      &:disabled {
+        cursor: not-allowed;
+        background-color: #1f8ff19c;
+      }
+  
+      &:hover {
+        background-color: #1f7be7;
+      }
+    }
+  }
+  
+  .separator {
+    height: 80%;
+    width: 2px;
+    background-color: #dddddd35;
+  }
+  
+  @media (max-width: 768px) {
+    .login {
+      flex-direction: column;
+      gap: 30px; /* Adjusted for smaller screens */
+    }
+  
+    .item {
+      max-width: 100%;
+    }
+  
+    .separator {
+      width: 100%;
+      height: 2px;
+    }
+  }
+  
