@@ -63,11 +63,6 @@ const Chat = () => {
 
             {/* Bottom Section */}
             <div className="bottom">
-                <div className="icons">
-                    <img src="./img.png" alt="Image Icon" />
-                    <img src="./camera.png" alt="Camera Icon" />
-                    <img src="./mic.png" alt="Mic Icon" />
-                </div>
                 <input
                     type="text"
                     placeholder="Type a message..."
