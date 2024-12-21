@@ -36,7 +36,6 @@ const Chat = () => {
             {/* Top Section */}
             <div className="top">
                 <div className="user">
-                    <img src="./avatar.png" alt="User Avatar" />
                     <div className="texts">
                         <span>Jane Doe</span>
                         <p>Last seen recently</p>
@@ -53,7 +52,6 @@ const Chat = () => {
             <div className="center">
                 {messages.map((msg) => (
                     <div key={msg.id} className={`message ${msg.own ? "own" : ""}`}>
-                        <img src="./avatar.png" alt="User Avatar" />
                         <div className="texts">
                             <p>{msg.text}</p>
                             <span>{msg.time}</span>
